@@ -1,0 +1,32 @@
+{
+
+    "text": {
+
+        "content": "Configurações do servidor",
+
+        "embeds": [
+
+            {
+                "title": "Configurando {server.name}",
+
+                "description": "Configure seu servidor através do bot, ao envés de acessar um website, tenha uma configuração mais fácil e rápido!",
+
+                "thumbnail": {
+                    "url": "{server.icon}"
+                },
+
+                "color": "#0099ff"
+            },  {"description": "Sistema de bem-vindo"}
+
+        ]
+
+    },
+
+    "select": [{
+        "label": "Sistema de bem-vindo",
+        "description": "Configure a chamada de bem vindo e sada de um usuário, configure canais e texto!"
+    }, {"label": "Voltar"}],
+    "button": [{"label": "Edit"}],
+    "modal": [{"title":"Welcome system Edit"}]
+
+}

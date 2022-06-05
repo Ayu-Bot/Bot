@@ -1,0 +1,16 @@
+{
+ "text": {
+          "content": "Sunucu Ayarları", 
+          "embeds":[
+                 {"title":"{server.name} ayarlanıyor", 
+                  "description": "Bir web sitesi kullanmak yerine sunucunuzu bot üzerinden ayarlayın, daha kolay ve daha hızlı bir ayarlama yöntemine sahip olun!",
+                  "thumbnail": {"url": "{server.icon}"},
+                  "color": "#0099ff"}
+                 ]
+         },
+    "select": [{
+        "label": "Karşılama Sistemi",
+        "description": "Bir kullanıcının katılma ve ayrılma mesajlarını, mesajların kanallarını ve yazısını ayarlayın!"
+    }]
+
+}

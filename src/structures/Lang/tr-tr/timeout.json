@@ -1,0 +1,8 @@
+{
+ "text":  ":mute: | {member} susturuldu!\n:timer: | <t:{timer}:R> içinde susturulması kaldırılacak",
+ "error": "[Hata] Bu komudu sadece adminler ve \"Üyelere Zamanaşımı Uygula\" izni olanlar kullanabilir!",
+ "error2":"[Hata] \"Üyelere Zamanaşımı Uygula\" iznim olmadığı için bu komudu kullanamıyorum!",
+ "error3":"[Hata] Kullanıcıyı bulamıyorum, herşeyin düzgün olduğundan emin ol.",
+ "error4":"[Hata] Sana zamanaşımı uygulayamam",
+ "error5":"[Hata] Geçerli bir tarih gir!!"
+}
