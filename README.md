@@ -64,7 +64,7 @@ Come and contribute to Ayu's project, but read below:
       </details>
     </li>
     <li>
-     <details>
+      <details>
         <summary>Others
         </summary>
         <table>
@@ -98,33 +98,33 @@ Come and contribute to Ayu's project, but read below:
 
 <details>
   <summary>How to start</summary>
-  
+
   # First steps
   As a first step, you will clone this project, write the following command in your terminal:
   ```shell
-   $ git clone https://github.com/Ayu-Bot/DiscordBoot.git
-   $ cd DiscordBoot
+  $ git clone https://github.com/Ayu-Bot/DiscordBoot.git
+  $ cd DiscordBoot
   ```
   After that, you will run the following command:
   ```shell
-   $ npm init --y
-   $ npm i
+  $ npm init --y
+  $ npm i
   ```
   Now, to start the project, run:
   ```shell
-   $ npm start
+  $ npm start
   ```
-  
+
   # Additional information
   - Don't forget to fill in the `.env` file
-</details>
+  </details>
 
----
+  ---
 
-# Other informations
-[Privacy Policy](https://docs.ayubot.tech/diretrizes/privacy-policy)
+  # Other informations
+  [Privacy Policy](https://docs.ayubot.tech/diretrizes/privacy-policy)
 
-[Terms of use](https://docs.ayubot.tech/diretrizes/termos-de-uso)
+  [Terms of use](https://docs.ayubot.tech/diretrizes/termos-de-uso)
 
 
-### © All rights reserved by Ayu Team
+  ### © All rights reserved by Ayu Team

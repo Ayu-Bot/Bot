@@ -1,18 +1,31 @@
 {
- "text": {
-          "content": "Server settings", 
-          "embeds":[
-                 {"title":"Configuring {server.name}", 
-                  "description": "Configure your server through the bot, instead of accessing a website, have an easier and faster configuration!",
-                  "thumbnail": {"url": "{server.icon}"},
-                  "color": "#0099ff"},
-                 {"description": "Welcome system", "fields": [{"name": "Welcome Channel set", "value": "{welcome_ch.id}", "inline":true}, {"name":"Welcome Message set", "value": "{welcome.message}", "inline": true}]}
-                 ]
-         },
-    "select": [{
-        "label": "Welcome system",
-        "description": "Set up a user's welcome and outgoing call, set up channels and text!"
-    }, {"label": "Back"}],
-    "button": [{"label": "Edit"}],
-    "modal": [{"title":"Welcome system Edit"}]
+  "text": {
+    "content": "Server settings",
+    "embeds":[{
+      "title":"Configuring {server.name}",
+      "description": "Configure your server through the bot, instead of accessing a website, have an easier and faster configuration!",
+      "thumbnail": {
+        "url": "{server.icon}"
+      },
+      "color": "#0099ff"
+    },
+      {
+        "description": "Welcome system", "fields": [{
+          "name": "Welcome Channel set", "value": "{welcome_ch.id}", "inline":true
+        }, {
+          "name":"Welcome Message set", "value": "{welcome.message}", "inline": true
+        }]}]
+  },
+  "select": [{
+    "label": "Welcome system",
+    "description": "Set up a user's welcome and outgoing call, set up channels and text!"
+  }, {
+    "label": "Back"
+  }],
+  "button": [{
+    "label": "Edit"
+  }],
+  "modal": [{
+    "title":"Welcome system Edit"
+  }]
 }
