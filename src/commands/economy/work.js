@@ -16,12 +16,13 @@ module.exports = class extends Command {
     const lang = await this.client.lang({
       lang: user.lang || "pt-br", cmd: 'work'
     });
+    var random = Math.floor(Math.random(500) * 50000)
     if (!user) return interaction.reply(lang.error);
-    var success = lang.text.replace("{money}", user.economy.coins)
+    var success = lang.text.replace("{money}", random)
     if (cooldown.has(interaction.user.id)) return interaction.reply({
       content: lang.cooldown, type: 'EPHEMERAL'
     });
-    var random = Math.floor(Math.random(500) * 50000)
+    
     user.economy.coins += random;
     user.save();
     interaction.reply(success)
